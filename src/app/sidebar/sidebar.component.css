@@ -1,0 +1,29 @@
+.sidebar {
+    height: 90.5%;
+    margin-top: 56.5px;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: 2px solid lightgrey;
+    overflow-x: hidden;
+    padding-top: 16px;
+    overflow: auto;
+    background-color: #f7f3f3;
+  }
+  .side{
+    padding: 0px 40px;
+    font-size: 30px;
+
+  }
+  .side a{
+    color : black;
+    font-family: sans-serif;
+  }
+  .side:hover{
+       background-color: rgb(189, 189, 211);   
+  }
+  a:hover{
+    color: #fff !important;
+  }

@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "sadasdsa",
+      "email": "afdsfasd",
+      "password": "fasdfdsa",
+      "id": 2
+    },
+    {
+      "fullName": "Zia Aslam",
+      "email": "ziakamboh321@gmail.com",
+      "password": "zia123",
+      "id": 3
+    },
+    {
+      "fullName": "ali",
+      "email": "ali@gmail.com",
+      "password": "ali321",
+      "id": 4
+    },
+    {
+      "fullName": "Zia Aslam",
+      "email": "zia@gmail.com",
+      "password": "zia123",
+      "id": 5
+    },
+    {
+      "fullName": "",
+      "email": "zia@gmail.com",
+      "password": "zia123",
+      "id": 6
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "fasdfdsa",
+      "id": 7
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "fullName": "Zia Aslam",
+      "email": "ziakamboh321@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "fullName": "Zia Aslam",
+      "email": "ziakamboh321@gmail.com",
+      "password": "123",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

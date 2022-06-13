@@ -1,0 +1,27 @@
+<div>
+  <nav class="navbar navClr">
+    <span class="navbar-brand mb-0 h1 spn1">Chat</span>
+    <form [formGroup]="findNames" (ngSubmit)="nameFind()">
+      <input
+        formControlName="name"
+        class="form-control mr-sm-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="name"
+      />
+    </form>
+    <a routerLink="/Login" (click)="LogOut()">
+      <span class="spn2">LogOut</span></a
+    >
+  </nav>  
+</div>
+
+<div class="container">
+<div class="sidebar">
+  <app-sidebar [nameData]="nameGet"></app-sidebar>
+  <!-- <router-outlet></router-outlet> -->
+</div>
+
+
+</div>

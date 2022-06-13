@@ -1,0 +1,17 @@
+<div class="sidebar">
+  <!-- <h1 *ngIf="nameData">{{ nameData[0].name }}</h1> -->
+ 
+  <div *ngFor="let key of nameData">
+     <div class="side">
+      <a routerLink="./chatBox" > {{key}}</a>
+     
+     </div>
+     <hr>
+ 
+    
+  </div>
+</div>
+<div class="bdy">
+  <!-- <app-chat></app-chat> -->
+  <router-outlet></router-outlet>
+</div>

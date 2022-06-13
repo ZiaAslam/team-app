@@ -1,0 +1,18 @@
+.navClr {
+  background-color: #563d7c;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
+.spn2 {
+  float: right !important;
+  color: #fff;
+}
+.spn1 {
+  color: #fff;
+}
+.container {
+  display: flex;
+}
+.bdy {
+  margin-top: 56.5px;
+  margin-left: 200px;
+}

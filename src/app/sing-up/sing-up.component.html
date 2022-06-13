@@ -1,0 +1,30 @@
+<div class="container">
+
+      <div class="card">
+        <div class="text-center">
+          <h1>SingUp Form</h1>
+          <h6>Please Enter Your Details !!</h6>
+        </div>
+        <form >
+            <form [formGroup]="singUpForm" (ngSubmit)="singUp()">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Full Name</label>
+                    <input formControlName="name" [ngClass]="{'is.invalid':submitted && singUpForm.controls}" type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input formControlName="email" type="text" class="form-control" id="exampleInputEmail1">
+                    <span id="emailHelp" class="form-text">We'll never share your email with anyone else.</span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Password</label>
+                    <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button [disabled]="!singUpForm.valid"  type="submit" class="btn btn-primary">Sign up</button>
+            </form>
+        </form>
+        <a routerLink="/Login">Already registered? click to login</a>
+
+      </div>
+
+</div>
